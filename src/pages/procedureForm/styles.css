@@ -1,0 +1,117 @@
+.form-container{
+  width: 100%;
+  max-width: 1120px;
+  
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container .content{
+  width: 100%;
+  padding: 96px;
+  background: white;
+  box-shadow: 0 0 100px rgb(0,0,0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container .content form{
+  width: 100%;
+  max-width: 800px;
+  
+}
+
+.form-container .content form h1{
+  font-size: 36px;
+}
+
+.form-container .content form fieldset{
+  margin-top: 64px;
+  border: 0;
+  border-color: white;
+}
+
+.form-container .content form legend {
+  margin-bottom: 20px;
+}
+
+.form-container .content form legend h2 {
+  font-size: 24px;
+}
+
+.form-container .content form .field {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form-container .content form .field-group {
+  display: flex;
+}
+
+.form-container .content form input, .form-container .content form select {
+  padding: 16px 24px;
+  font-size: 16px;
+  background-color: #f0f0f5;
+}
+
+.form-container .content form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-container .content form label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.form-container .content .field-group .field + .field {
+  margin-left: 24px;
+}
+
+.form-container .content form button {
+  width: 260px;
+  height: 56px;
+  background: lawngreen;
+  font-size: 16px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  margin-top: 40px;
+  transition: filter 0.2s;
+}
+
+.form-container .content form button:hover {
+  filter: brightness(80%);
+}
+
+.form-container .content form .checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.form-container .content form .checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
